@@ -6,7 +6,7 @@
 
 
   <!-- Load the URDF into the ROS Parameter Server -->
-  <!-- <param name="robot_description" command="$(find xacro)/xacro.py '$(find agribot_control)/urdf/agribot.xacro'"/> -->
+  <!-- <param name="robot_description" command="$(find xacro)/xacro '$(find agribot_control)/urdf/agribot.xacro'"/> -->
 
   <!-- load the controllers -->
   <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false" output="screen"  ns="/agribot" args=" 

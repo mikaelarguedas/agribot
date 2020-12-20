@@ -2,7 +2,7 @@
 <launch>
 
   <!-- Load the URDF into the ROS Parameter Server -->
-  <!-- <param name="robot_description" command="$(find xacro)/xacro.py '$(find agribot_control)/urdf/agribot.xacro'"/> -->
+  <!-- <param name="robot_description" command="$(find xacro)/xacro '$(find agribot_control)/urdf/agribot.xacro'"/> -->
 
   <!-- Show in Rviz   -->
   <!-- <node name="rviz" pkg="rviz" type="rviz"/> -->

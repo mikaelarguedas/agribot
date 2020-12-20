@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <launch>
   <!-- Spawn a robot into Gazebo -->
-  <param name="robot_description" command="$(find xacro)/xacro.py '$(find agribot_control)/urdf/agribot.xacro'"/>
+  <param name="robot_description" command="$(find xacro)/xacro '$(find agribot_control)/urdf/agribot.xacro'"/>
   
  <!-- send fake joint values -->
   <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">

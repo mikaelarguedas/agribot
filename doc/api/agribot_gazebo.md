@@ -80,7 +80,7 @@ the launch file is taking the configuration of an empty world which is a default
   </include>
 
   <!-- Spawn a robot into Gazebo -->
-  <param name="robot_description" command="$(find xacro)/xacro.py '$(find agribot_control)/urdf/agribot.xacro'"/>
+  <param name="robot_description" command="$(find xacro)/xacro '$(find agribot_control)/urdf/agribot.xacro'"/>
 
   <node name="agribot_spawn" pkg="gazebo_ros" type="spawn_model" output="screen" respawn="false"
    args="-x 6 -y -1 -z 1.13 -Y 1.57079 -urdf -param robot_description -model agribot" />
