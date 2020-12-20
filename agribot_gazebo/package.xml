@@ -13,6 +13,7 @@
   <run_depend>agribot_description</run_depend>
   <run_depend>agribot_control</run_depend> 
   <run_depend>gazebo_ros</run_depend> 
+  <run_depend>xacro</run_depend>
 
   <export>
   </export>
